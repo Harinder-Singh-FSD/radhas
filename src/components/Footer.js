@@ -4,7 +4,7 @@ import toast, { Toaster } from "react-hot-toast";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import logo from "../images/logo.png";
+
 const Footer = () => {
   const handleClick = () => {
     toast("Coming Soon..!! ", {
@@ -43,16 +43,17 @@ const Footer = () => {
         </div>
       </div>
       <div class="footer-center col-md-4 col-sm-6">
-        <div style={{display:"flex", alignItems:"center"}} className="contactnumber">
+        <div
+          style={{ display: "flex", alignItems: "center" }}
+          className="contactnumber"
+        >
           <i class="fa fa-phone"></i>
           <div>
-          <p> (+44) 07973 179833</p>
-          <p> (+44) 07308 648019</p>
+            <p> (+44) 07973 179833</p>
+            <p> (+44) 07308 648019</p>
           </div>
-          
-          
         </div>
-        <div style={{display:"flex",alignItems:"center"}}>
+        <div style={{ display: "flex", alignItems: "center" }}>
           <i class="fa fa-envelope"></i>
           <p>
             <a href="Ataank108@gmail.com">Ataank108@gmail.com</a>
@@ -63,7 +64,11 @@ const Footer = () => {
         class="footer-right col-md-4 col-sm-6"
         style={{ textAlign: "center" }}
       >
-        <img src={logo} alt="logo" style={{ height: "10vh" }} />
+        <img
+          src="https://res.cloudinary.com/dvc56ayit/image/upload/v1619803851/radha%27s/logo_gfos58.png"
+          alt="logo"
+          style={{ height: "10vh" }}
+        />
         <p class="menu" style={{ textAlign: "center" }}>
           <a href="/"> Home</a> |<a href="/services"> Services</a> |
           <a href="/contact"> Contact</a>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Homepage.css";
-import bookcp from "../images/bookcp.png";
-import logo from "../images/logo.png";
+// import bookcp from "../images/bookcp.png";
+// import logo from "../images/logo.png";
 import { Alert, ListGroup } from "react-bootstrap";
 import { motion } from "framer-motion";
 
@@ -58,7 +58,11 @@ const Homepage = () => {
               }}
             >
               <h1 style={{ margin: "1.5rem" }}>About us</h1>
-              <img src={logo} style={{ width: "15rem" }} alt="logo" />
+              <img
+                src="https://res.cloudinary.com/dvc56ayit/image/upload/v1619803851/radha%27s/logo_gfos58.png"
+                style={{ width: "15rem" }}
+                alt="logo"
+              />
               <h6 style={{ lineHeight: "2" }}>
                 <span class="first-character ny">W</span>e offer with love and
                 even plain water will taste sweet. Prepare a meal from heart and
@@ -144,7 +148,7 @@ const Homepage = () => {
               </h4>
 
               <img
-                src={bookcp}
+                src="https://res.cloudinary.com/dvc56ayit/image/upload/v1619803856/radha%27s/bookcp_wlyhxz.png"
                 style={{ width: "50%", margin: "auto", height: "60%" }}
                 alt="logo"
                 id="book"

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.png";
+
 
 import "./ComingSoon.css";
 const ComingSoon = () => {
@@ -18,7 +18,7 @@ const ComingSoon = () => {
     >
       <div class="middle">
         <img
-          src={logo}
+          src="https://res.cloudinary.com/dvc56ayit/image/upload/v1619803851/radha%27s/logo_gfos58.png"
           alt="logo"
           style={{ height: "150px", width: "250px" }}
         />

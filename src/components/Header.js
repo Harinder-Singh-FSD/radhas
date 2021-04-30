@@ -5,7 +5,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import {Link} from "react-router-dom"
-import logo from "../images/logo.png";
+
 
 const Header = () => {
   return (
@@ -24,17 +24,16 @@ const Header = () => {
       <Container>
         <Navbar.Brand href="#home">
           <Link to="/">
-          <motion.img
-            src={logo}
-            alt="logo"
-            height="90vh"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-            style={{ margin: "5px" }}
-            id="headerlogo"
-              
+            <motion.img
+              src="https://res.cloudinary.com/dvc56ayit/image/upload/v1619803851/radha%27s/logo_gfos58.png"
+              alt="logo"
+              height="90vh"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              style={{ margin: "5px" }}
+              id="headerlogo"
             />
-            </Link>
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -71,8 +70,13 @@ const Header = () => {
           </Nav>
 
           <Nav className="ml-auto">
-            <motion.a href="/" className="social fb" style={{ color: "#4267B2" }} whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }} >
+            <motion.a
+              href="/"
+              className="social fb"
+              style={{ color: "#4267B2" }}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <FacebookIcon />
             </motion.a>
             <motion.a
@@ -80,16 +84,16 @@ const Header = () => {
               className="social instagram"
               style={{ color: "#cd486b" }}
               whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }} 
+              whileTap={{ scale: 0.9 }}
             >
               <InstagramIcon />
             </motion.a>
             <motion.a
-            href="/"
+              href="/"
               className="social twitter"
               style={{ color: "#1DA1F2" }}
               whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }} 
+              whileTap={{ scale: 0.9 }}
             >
               <TwitterIcon />
             </motion.a>

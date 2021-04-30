@@ -13,9 +13,12 @@ const Contact = () => {
                   <div class="card-body text-center">
                     <i class="fa fa-phone fa-5x mb-3" aria-hidden="true" style={{color:"#E986F2"}}></i>
                     <h4 class="text-uppercase mb-5" style={{color:"gray"}}>call us</h4>
+                  
+                  <div style={{display:"flex",flexDirection:"column",justifyContent:"center"}} >
                   <p>Mrs. Aradhana (RadhaRupa) Taank</p>
                   <a href="+4407973179833">+44 07973 179833</a>
                   <a href="+4407308468019">+44 07308 648019</a>
+                  </div>
                   </div>
                 </div>
              </div>

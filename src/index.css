@@ -24,3 +24,10 @@ h2 {
     text-shadow: 0 4px 4px #dcae96;
     font-style:bold
   }
+
+
+  @media (max-width: 370px) {
+    #headerlogo {
+      height:60px
+    }
+  }

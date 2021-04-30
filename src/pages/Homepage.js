@@ -3,6 +3,7 @@ import "./Homepage.css";
 import bookcp from "../images/bookcp.png";
 import logo from "../images/logo.png";
 import { Alert, ListGroup } from "react-bootstrap";
+import { motion } from "framer-motion";
 
 import { Typography } from "@material-ui/core";
 const Homepage = () => {
@@ -67,13 +68,24 @@ const Homepage = () => {
                 UK with our life and efforts dedicated to living a spiritually
                 balanced life. With Radha’s, we offer a plethora of services:
               </h6>
+
               <ListGroup>
                 {list.map((item) => {
                   return (
                     <ListGroup className="listItem">
-                      <ListGroup.Item style={{backgroundColor:"#00004d",color:"#dcae96"}}>
-                        <Typography variant="h5">{ item.title}</Typography>
-                        <Typography>{ item.subtitle}</Typography>
+                      <ListGroup.Item
+                        style={{
+                          backgroundColor: "#00004d",
+                          color: "#dcae96",
+                        }}
+                      >
+                        <motion.div
+                          whileHover={{ scale: 1.1 }}
+                          whileTap={{ scale: 0.9 }}
+                        >
+                          <Typography variant="h5">{item.title}</Typography>
+                          <Typography>{item.subtitle}</Typography>
+                        </motion.div>
                       </ListGroup.Item>
                     </ListGroup>
                   );

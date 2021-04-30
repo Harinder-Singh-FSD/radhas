@@ -16,7 +16,7 @@ const Card = (props) => {
         class="card-img-top"
         src={props.item.image}
         alt="logo"
-        style={{ height: "250px" }}
+        style={{ height: "230px" }}
       />
       <div
         class="card-body"

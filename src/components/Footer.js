@@ -43,9 +43,13 @@ const Footer = () => {
         </div>
       </div>
       <div class="footer-center col-md-4 col-sm-6">
-        <div style={{display:"flex", alignItems:"center"}}>
+        <div style={{display:"flex", alignItems:"center"}} className="contactnumber">
           <i class="fa fa-phone"></i>
-          <span> (+44) 07973 179833 <br/>(+44) 07308 648019</span>
+          <div>
+          <p> (+44) 07973 179833</p>
+          <p> (+44) 07308 648019</p>
+          </div>
+          
           
         </div>
         <div style={{display:"flex",alignItems:"center"}}>

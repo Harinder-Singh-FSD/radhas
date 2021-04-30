@@ -164,3 +164,11 @@
       margin-left: 0;
     }
   }
+
+  @media (max-width:998){
+    .contactnumber{
+      flex-direction:column;
+      justify-content:center;
+      align-items: center;
+    }
+  }

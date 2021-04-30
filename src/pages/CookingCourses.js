@@ -101,7 +101,7 @@ const CookingCourses = () => {
       <Row>
         {finalList.map((item) => {
           return (
-            <Col lg={4} md={4} sm={6} xs={12} style={{flex:1}}>
+            <Col lg={4} md={4} sm={12} xs={12}>
               <Card item={item} />
             </Col>
           );

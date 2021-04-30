@@ -17,7 +17,11 @@ const ComingSoon = () => {
       }}
     >
       <div class="middle">
-        <img src={logo} alt="logo" style={{ height: "30vh" }} />
+        <img
+          src={logo}
+          alt="logo"
+          style={{ height: "150px", width: "250px" }}
+        />
         <hr />
         <h1 style={{ fontWeight: "bold" }}>COMING SOON</h1>
         <hr />
